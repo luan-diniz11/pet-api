@@ -6,4 +6,4 @@ router = APIRouter()
 
 @router.get("/health")
 def health_check():
-    return {"status": "Sua aplicação está: healthy"}
+    return {"status": "healthy"}
